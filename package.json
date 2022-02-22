@@ -1,0 +1,38 @@
+{
+    "name": "fidia",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon app.js",
+        "start": "NODE_ENV=production node app.js",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crud-engr/fidia.git"
+    },
+    "author": "Abeeb Ayinla",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/crud-engr/fidia/issues"
+    },
+    "homepage": "https://github.com/crud-engr/fidia#readme",
+    "dependencies": {
+        "apollo-server-core": "^3.6.3",
+        "apollo-server-express": "^3.6.3",
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "graphql": "^16.3.0",
+        "html-to-text": "^8.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "mailgun-js": "^0.22.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.2.2",
+        "morgan": "^1.10.0",
+        "nodemailer": "^6.7.2",
+        "pug": "^3.0.2",
+        "winston": "^3.6.0"
+    }
+}

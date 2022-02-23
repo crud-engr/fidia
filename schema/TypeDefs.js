@@ -31,8 +31,6 @@ const typeDefs = gql`
         verifyEmail(_id: String!): String!
 
         resendToken(_id: String!): String!
-
-        # resendVerificationEmail: User!
     }
 `;
 

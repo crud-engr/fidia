@@ -42,3 +42,5 @@ const port = process.env.PORT || 8082;
 app.listen(port, () => {
     logger.info(`SERVER RUNNING ON PORT: ${process.env.PORT}`);
 });
+
+module.exports = app;

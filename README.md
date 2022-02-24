@@ -20,4 +20,4 @@
 ```MONGO_URI='mongodb://localhost:27017/fidia''```
 
 #### Run project
-```npm start```
+```npm run dev```

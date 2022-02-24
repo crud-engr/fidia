@@ -30,6 +30,7 @@ app.use((req, res, next) => {
     const server = new ApolloServer({
         typeDefs,
         resolvers,
+        introspection: true,
         // plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],
     });
 
